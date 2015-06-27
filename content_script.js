@@ -6,6 +6,7 @@ svLi.children[0].children[0].text = "Street View";
 var container = mapLi.parentNode;
 container.insertBefore(svLi, photosLi);
 
+var photosDiv = document.getElementById('photos');
 var svDiv = document.createElement('div');
 svDiv.id="googlestreet";
 svChildDiv = document.createElement('div');
@@ -13,7 +14,7 @@ svChildDiv.id="hdp-street-view";
 svDiv.appendChild(svChildDiv);
 svDiv.className='yui3-tab-panel';
 var tabContentDiv = document.querySelector("#map-tabs .yui3-tabview-panel");
-tabContentDiv.appendChild(svDiv);
+tabContentDiv.insertBefore(svDiv, photosDiv);
 
 var s = document.createElement('script');
 s.src = chrome.extension.getURL('inject.js');
