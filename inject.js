@@ -1,3 +1,4 @@
+// reimplement the z-google-maps-api module to override the API key in GOOGLE_MAPS_API_URL
 var gmaps_key="AIzaSyBmHQ3_5lgZ21VtQKwwe5VMa1rjQFmvSTI";
 YUI.add('z-google-maps-api', function (Y) {
 
