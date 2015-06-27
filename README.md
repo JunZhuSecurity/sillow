@@ -1,2 +1,2 @@
-# zillowenhancement
-chrome extension to enhance zillow user experience
+# sillow
+Chrome extension to embed google street view in zillow listing details page
