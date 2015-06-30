@@ -1,7 +1,7 @@
 {
   "name": "Sillow",
   "version": "0.1.0",
-  "description": "Embed google Street View on zillow details pages",
+  "description": "Embed Google Street View on Zillow details pages",
   "icons": { "128": "icon.png" },
   "permissions": [
     "*://www.zillow.com/homedetails/*"
